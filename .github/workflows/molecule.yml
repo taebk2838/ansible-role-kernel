@@ -10,8 +10,6 @@ on:
     tags_ignore:
       - '*'
   pull_request:
-  schedule:
-    - cron: '21 11 11 * *'
 
 jobs:
   lint:
